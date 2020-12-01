@@ -61,7 +61,6 @@ def render(bot,picture):
         except:
             database.update_photo_result(picture[0],"Картинка поломана")
             return
-        bot.send_file(chat_id='@wg900', file_id=img_result["fileId"])
     message = """Большое спасибо за участие в акции! Поделитесь этой фотографией со своими друзьями и в социальных сетях. Пусть в нашем полку окажется как можно больше героев!\n\nНажав на кнопку, вы соглашаетесь с публикацией вашей фотографии в канале «Шествие Бессмертного полка»"""
     bot.send_text(chat_id=picture[1], text=message)
     print(img_result)
