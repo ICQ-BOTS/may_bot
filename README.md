@@ -1,7 +1,16 @@
 
 # May9Bot
 
-Старт:
+# Оглавление 
+ - [Описание](https://github.com/ICQ-BOTS/may_bot#описание)
+ - [Установка](https://github.com/ICQ-BOTS/may_bot#установка)
+ - [Скриншоты работы](https://github.com/ICQ-BOTS/may_bot#скриншоты-работы)
+
+# Описание
+Это твое одеяло. Я буду напоминать тебе каждый день, как я по тебе скучаю.
+
+# Установка
+
 1. Установка всех зависимостей 
 ```bash
 pip3 install -r requirements.txt
@@ -26,3 +35,8 @@ python3 rendering.py &
 ```bash
 python3 may_bot.py
 ```
+
+# Скриншоты работы
+<img src="https://github.com/ICQ-BOTS/may_bot/blob/main/img/1.png" width="400">
+<img src="https://github.com/ICQ-BOTS/may_bot/blob/main/img/2.png" width="400">
+<img src="https://github.com/ICQ-BOTS/may_bot/blob/main/img/result.jpg" width="400">
